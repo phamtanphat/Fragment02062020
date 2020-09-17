@@ -8,10 +8,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        tools:layout="@layout/fragment_blank"
-        android:id="@+id/fragmentBlank"
-        android:name="com.example.fragment02062020.BlankFragment"
+    <Button
+        android:id="@+id/buttonAddFragment"
+        android:layout_gravity="center"
+        android:text="Add Fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
